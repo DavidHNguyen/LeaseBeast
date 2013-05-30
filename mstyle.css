@@ -1,0 +1,127 @@
+html,body, div, table	{margin: 0;
+						 padding: 0;
+						 border: 0;
+						 outline: 0;
+						 font-size: 100%;
+						 vertical-align: baseline;
+				 		 background: transparent;
+						 font-family:Arial, Helvetica, sans-serif;}
+				 
+div p		{text-align: left;
+			 vertical-align: bottom;
+			 font-size: 16px}
+
+				 
+.wrapper	{width: 100%;
+			 margin: 0;
+			 text-align: center;}
+
+.topb		{background-color: black;
+			 height: 20px;
+			 text-align: right;}
+
+header		{background-color: black;}
+
+html 		{background-color:#303030;}
+
+body		{background-image: url(bgcity.jpg);
+			 background-repeat: no-repeat;
+			 background-size: 100% 100%}
+			 
+#pal		{border: 0px;
+			 display: inline-block;
+			 position: absolute;
+			 right: 65px;
+		     border-bottom-color: #FF0;
+			 font-weight: bold;
+			 color: #000;
+			 
+			 
+			 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#f1da36));
+			 height: 20x;}
+			 
+#si			{border: 1px; 
+			 display: inline-block;
+			 float: right;
+			 font-weight: bold;
+			 color: #FFF;
+			 background-color: #000;
+			 padding: 10;
+			 height: 20px;}
+
+#key		{text-align: center;
+	
+			 padding-top: 120px;
+			 padding-bottom: 50px;
+			 width: 100%}
+
+
+.search1	{border-color: black;
+			 width: 402px;
+			 height:24px;
+			 margin-left:5px;}
+			 
+.date		{border-color: black;
+			 width: 170px;
+			 height:24px;
+			 margin-left:10px;}
+
+.search-button	{padding-top: 5px;
+				 vertical-align: bottom;
+				 padding-bottom: 1px;
+				 margin-left: 10px;}
+			 
+#menu		{border: 2px outset black;
+			 background-color: #FFF;
+			 text-align: center;
+			 margin: auto;
+			 width: 755px;}
+
+.amen		{text-align: center;
+			 margin: auto;}
+		 
+.months		{border-color: #999;
+			 width: 75px;}
+			 
+.about		{padding-top: 10px;
+			 font-size: 13px;
+			 padding-bottom: 10px}
+			 
+#logo		{padding-top: 10px;
+			 padding-bottom: 10px;}
+			 
+img.mini	{margin-top: 15px;
+			 margin-bottom: -28px;
+			 margin-right: 10px;
+			 margin-left: -30px;}
+			 
+.listbox	{border: 2px outset black;
+			 background-color: #FFF;
+			 text-align: center;
+			 width: 940px;
+			 margin: auto;
+			 height: 800px;}
+			 
+.searchTop	{padding-bottom:20px;}
+
+
+#listingHead	{color: #FFF;
+				 background-color: #FF3;
+				 border: 2px outset #CCC;
+				 height: 20x;
+				 font-weight: bold;
+				 padding-top: 3px;
+				 padding-bottom: 3px;}
+				 
+#searchResults	{color: #FFF;
+				 background-color: #09F;
+				 border: 2px outset #CCC;
+				 height: 20x;
+				 font-weight: bold;
+				 padding-top: 5px;
+				 padding-bottom: 5px;}
+				 
+#search-box		{padding-bottom:20px}
+
+img.key2		{width: 250px;
+				height: 129px;}

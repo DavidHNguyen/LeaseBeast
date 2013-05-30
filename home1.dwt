@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <link type="text/css" rel="stylesheet" href="mstyle.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- TemplateBeginEditable name="doctitle" -->
+        <!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="head" -->
+		<!-- TemplateEndEditable -->
+		<title>Sublease Central</title>
+        <link rel="shortcut icon" href="http://i.imgur.com/Q7jjHYy.png">
+	</head>
+	<body>
+        <form>
+    	<header>
+		<div class="topb"> 
+			<input type="button" name="postLease" value="Post a Lease" id="pal"/>
+        	<input type="button" name="signIn" value="Sign In" id="si"/>
+		</div>
+    	</header>
+		<div class="wrapper">
+		<div id="key"><img src="homepagelogo.png" width="264" height="136" id="key2"/></div>
+    
+   		<div id="search-box">
+    	<input type="textbox" name="searchbox" value="City, State, or Zip Code" class="search1"/>     
+        <input type="textbox" name="startdatebox" value="Start Date" class="date"/>
+    	<input type="image" src="searchbutton.jpg" alt="submit" class="search-button"/>
+		  
+        <input type="image" src="http://www.subleasecentral.com/images/buttons/advanced_icon.png"  alt="submit" class="more" />
+        <a href="#" id="menu-trigger">Menu<span class="arrow"></span></a>
+        </div>
+
+
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function(){
+			// build a variable to target the #menu div
+				var menu = $('#menu')
+				// bind a click function to the menu-trigger
+				$('#menu-trigger').click(function(event){
+					event.preventDefault();
+					// if the menu is visible slide it up
+					if (menu.is(":visible"))
+					{
+						menu.slideUp(400);
+						$(this).removeClass("open");
+					}
+					// otherwise, slide the menu down
+				else
+				{
+					menu.slideDown(400);
+					$(this).addClass("open");
+				}
+				});
+			});
+		</script>
+        
+		<div id="menu" style="display: none">
+    	Price<input type="button" name=""/>    
+   		Duration (months): 
+    	min <input type="textbox" name="minmonth" value="" class="months"/>
+    	max <input type="textbox" name="maxmonth" value="" class="months"/>
+		<br />
+    	Property Details: 
+    	Type 
+    	<select>
+    	<option></option>
+    	</select>
+    	Min: Bed
+    	<select>
+    		<option></option>
+    	</select>
+    	Min: Bath
+		<select>
+			<option value="" >  </option>
+    		<option></option>
+    	</select>
+    
+    
+    	<br />
+    	<br />
+		<table class="amen">
+    		<div>
+    			<p>Amenities: </p>
+    		</div>	
+			<tr>
+				<td valign="top" ><input type="checkbox" name="amen" value="1" />Furnished</td>
+				<td ><input type="checkbox" name="amen" value="1" />Washer/Dryer</td>
+				<td ><input type="checkbox" name="amen" value="1" />Dishwasher</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pet Friendly</td>
+				<td ><input type="checkbox" name="amen" value="1" />Non-smoking</td>
+				<td ><input type="checkbox" name="amen" value="1" />Gym</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pool</td>
+			</tr>
+			<tr>
+				<td ><input type="checkbox" name="amen" value="1" />Furnished</td>
+				<td ><input type="checkbox" name="amen" value="1" />Washer/Dryer</td>
+				<td ><input type="checkbox" name="amen" value="1" />Dishwasher</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pet Friendly</td>
+				<td ><input type="checkbox" name="amen" value="1" />Non-smoking</td>
+				<td ><input type="checkbox" name="amen" value="1" />Gym</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pool</td>
+			</tr>
+			<tr>
+				<td ><input type="checkbox" name="amen" value="1" />Furnished</td>
+				<td ><input type="checkbox" name="amen" value="1" />Washer/Dryer</td>
+				<td ><input type="checkbox" name="amen" value="1" />Dishwasher</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pet Friendly</td>
+				<td ><input type="checkbox" name="amen" value="1" />Non-smoking</td>
+				<td ><input type="checkbox" name="amen" value="1" />Gym</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pool</td>
+			</tr>
+			<tr>
+				<td ><input type="checkbox" name="amen" value="1" />Furnished</td>
+				<td ><input type="checkbox" name="amen" value="1" />Washer/Dryer</td>
+				<td ><input type="checkbox" name="amen" value="1" />Dishwasher</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pet Friendly</td>
+				<td ><input type="checkbox" name="amen" value="1" />Non-smoking</td>
+				<td ><input type="checkbox" name="amen" value="1" />Gym</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pool</td>
+			</tr>
+			<tr>
+				<td ><input type="checkbox" name="amen" value="1" />Furnished</td>
+				<td ><input type="checkbox" name="amen" value="1" />Washer/Dryer</td>
+				<td ><input type="checkbox" name="amen" value="1" />Dishwasher</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pet Friendly</td>
+				<td ><input type="checkbox" name="amen" value="1" />Non-smoking</td>
+				<td ><input type="checkbox" name="amen" value="1" />Gym</td>
+				<td ><input type="checkbox" name="amen" value="1" />Pool</td>
+			</tr>
+			</table>
+		</div>
+        
+		<div class="about">
+        	<a href="">about </a>|<a href="">contact us</a>
+        </div>
+    </form>
+	</div>
+</body>
+</html>
